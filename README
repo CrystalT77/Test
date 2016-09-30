@@ -1,1 +1,12 @@
-这是一个测试文件。。。。。。
+<h1>这是一个有关于Git使用的测试记录文件。。。。。。</h1>
+<h2>一些遇到的错误记录：</h2>
+<ul>
+<li>在执行“$ git remote add origin git@github.com:CrystalT77/Test.git”语句时，出现“fatal: Not a git repository (or any of the parent directories): .git”错误提示。
+</li>
+<li>在“$ git add README”时，出现“fatal: pathspec 'README' did not match any files”</li>
+</ul>
+<h2>对应的原因及解决：</h2>
+<ul>
+<li>使用“git init”</li>
+<li>因为建立的Repository是个空的，没有相应的文件夹。得先执行一个“$ touch README”</li>
+</ul>
